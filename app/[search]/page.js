@@ -1,5 +1,5 @@
 import getWikiResult from "@/lib/getWikiResult";
-import Item from "./components/item";
+import Item from "./components/Item";
 
 export async function generateMetadata({params}){
   const wikiData = getWikiResult(params.search);
